@@ -1,0 +1,30 @@
+{
+  "name": "bookish-pancake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server --inspect ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caivano/bookish-pancake.git"
+  },
+  "author": "Giovanna Dotto Caivano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caivano/bookish-pancake/issues"
+  },
+  "homepage": "https://github.com/caivano/bookish-pancake#readme",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
